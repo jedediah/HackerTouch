@@ -93,7 +93,7 @@ public class BrowserView extends LinearLayout implements View.OnTouchListener, T
         @Override
         public void onReceivedHttpAuthRequest(WebView view, final HttpAuthHandler handler, String host, String realm) {
             //Lg.d("onReceivedHttpAuthRequest host="+host+" realm="+realm+" handler="+handler);
-            handler.proceed("jedediah","apophis");
+            handler.proceed("jedediah","secret password");
         }
 
         @Override
