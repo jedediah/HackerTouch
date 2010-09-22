@@ -1,0 +1,7 @@
+gen
+*.iml
+*.ipr
+*.iws
+*.keystore
+local.properties
+bin
